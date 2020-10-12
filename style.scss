@@ -123,10 +123,22 @@ main {
         }
 
         .personal-info {
+            margin-bottom: 60px;
             width: 422px;
             font-size: 14px;
             font-family: $text-font-style;
-            color: rgb(51, 51, 51);     
+            color: rgb(51, 51, 51);  
+            
+            &:before {
+                content: '';
+                width: 20px;
+                border-bottom: solid 3px $items-color;
+                position: absolute;
+                right: 48%;
+                bottom: 54px;
+                z-index: 1;
+            }
+
         }
 
         .border-right {
@@ -135,6 +147,47 @@ main {
             right: -60px;
             transform: rotate(-45deg);
             border-left: none;
+        }
+
+        button {
+            position: relative;
+            width: 120px;
+            height: 24px;
+            font-size: 14px;
+            font-family: "Open Sans";
+            color: rgb(102, 102, 102);
+            font-weight: bold;
+            background-color: white;
+            border: solid 1px $items-color;
+            outline: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $items-color;
+                color: white;
+            }
+
+            &:before {
+                content: '';
+                width: 10px;
+                border-bottom: solid 3px $items-color;
+                position: absolute;
+                right: 30%;
+                top: -34px;
+                z-index: 1;
+            }
+
+            &:after {
+                content: '';
+                width: 10px;
+                border-bottom: solid 3px $items-color;
+                position: absolute;
+                right: 65%;
+                top: -34px;
+                z-index: 1;
+            }
+
+        
         }
     }
 }

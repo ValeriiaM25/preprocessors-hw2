@@ -135,10 +135,20 @@ main .user-info .subtitle {
   color: #666666;
 }
 main .user-info .personal-info {
+  margin-bottom: 60px;
   width: 422px;
   font-size: 14px;
   font-family: "Raleway";
   color: #333333;
+}
+main .user-info .personal-info:before {
+  content: "";
+  width: 20px;
+  border-bottom: solid 3px #ffcc00;
+  position: absolute;
+  right: 48%;
+  bottom: 54px;
+  z-index: 1;
 }
 main .user-info .border-right {
   position: absolute;
@@ -154,6 +164,41 @@ main .user-info .border-right {
 main .user-info .border-right:hover {
   border-color: #b38f00;
   cursor: pointer;
+}
+main .user-info button {
+  position: relative;
+  width: 120px;
+  height: 24px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #666666;
+  font-weight: bold;
+  background-color: white;
+  border: solid 1px #ffcc00;
+  outline: none;
+  cursor: pointer;
+}
+main .user-info button:hover {
+  background-color: #ffcc00;
+  color: white;
+}
+main .user-info button:before {
+  content: "";
+  width: 10px;
+  border-bottom: solid 3px #ffcc00;
+  position: absolute;
+  right: 30%;
+  top: -34px;
+  z-index: 1;
+}
+main .user-info button:after {
+  content: "";
+  width: 10px;
+  border-bottom: solid 3px #ffcc00;
+  position: absolute;
+  right: 65%;
+  top: -34px;
+  z-index: 1;
 }
 
 footer {
