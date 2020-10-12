@@ -1,0 +1,177 @@
+header {
+  text-align: center;
+}
+header .header-title {
+  font-size: 60px;
+  font-family: "Roboto";
+  color: #ffcc00;
+  font-weight: 700;
+  line-height: 0;
+}
+header .header-subtitle {
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #898f8f;
+}
+header .icon {
+  position: relative;
+}
+header .icon:before {
+  content: "";
+  width: 15%;
+  border-bottom: solid 1px #ffcc00;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+}
+header .icon:after {
+  content: "";
+  width: 15%;
+  border-bottom: solid 1px #ffcc00;
+  position: absolute;
+  top: 50%;
+  right: 33%;
+}
+
+main {
+  margin-top: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .image {
+  position: relative;
+  padding-right: 100px;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  border-right: 1px solid #ffcc00;
+}
+main .image img {
+  border: 1px solid #ffcc00;
+}
+main .image .border-bottom-right {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  bottom: 66px;
+  left: -15px;
+  border-top: none;
+  border-right: none;
+}
+main .image .border-bottom-left {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  bottom: 66px;
+  right: 85px;
+  border-top: none;
+  border-left: none;
+}
+main .image .border-top-left {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  top: 62px;
+  right: 85px;
+  border-bottom: none;
+  border-left: none;
+}
+main .image .border-top-right {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  top: 62px;
+  left: -15px;
+  border-bottom: none;
+  border-right: none;
+}
+main .image .border-left {
+  position: absolute;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ffcc00;
+  border-top: none;
+  left: -60px;
+  transform: rotate(45deg);
+  border-right: none;
+}
+main .image .border-left:hover {
+  border-color: #b38f00;
+  cursor: pointer;
+}
+main .image .border-left:hover {
+  border-color: #b38f00;
+  cursor: pointer;
+}
+main .user-info {
+  position: relative;
+  margin-left: 65px;
+  text-align: center;
+}
+main .user-info .title {
+  position: relative;
+  font-size: 36px;
+  font-family: "Roboto";
+  color: #666666;
+}
+main .user-info .title:after {
+  content: "";
+  width: 100px;
+  border-bottom: solid 1px #ffcc00;
+  position: absolute;
+  right: 40%;
+  bottom: -30px;
+  z-index: 1;
+}
+main .user-info .subtitle {
+  padding-top: 30px;
+  font-size: 24px;
+  font-family: "Raleway";
+  color: #666666;
+}
+main .user-info .personal-info {
+  width: 422px;
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #333333;
+}
+main .user-info .border-right {
+  position: absolute;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ffcc00;
+  border-top: none;
+  right: -60px;
+  transform: rotate(-45deg);
+  border-left: none;
+}
+main .user-info .border-right:hover {
+  border-color: #b38f00;
+  cursor: pointer;
+}
+
+footer {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .pagination {
+  margin: 5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  border: 3px solid #ffcc00;
+  background-color: #ffcc00;
+}
+footer .pagination:hover {
+  background-color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
